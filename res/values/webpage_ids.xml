@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+These are the ID's of specific container elements on downloaded webpages.
+Instead of just referencing ID's in the code, hold them in values.
+If the ID is changed on the webpage, it can be changed throughout the entire app,
+so the same element is accessed.
+ -->
+<resources>
+    <string name="staff_directory_table">goog-ws-list-table</string>
+    
+</resources>

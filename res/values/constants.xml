@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+A general constants file. These are values that may be used multiple times in our application,
+or values that we don't want to have to go back through our source code and change.
+I didn't make a lot of different file for related constants, because there aren't many.
+Include date constants (date to redownload something, etc) here.
+-->
+<resources>
+
+    <!-- The month (1 == Jan, 2 == Feb) to redownload things that change yearly (staff directory, school info) -->
+    <integer name="yearly_redownload_month">8</integer>
+    
+    <!-- The day of the month to redownload things that change yearly -->
+    <integer name="yearly_redownload_day">1</integer>
+
+</resources>

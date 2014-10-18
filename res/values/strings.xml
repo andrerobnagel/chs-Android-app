@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">RebelNet</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="activities">
+        <item>Staff directory</item>
+        <item>Calendar</item>
+        <item>My Schedule</item>
+    </string-array>
+    
+    <!-- A default error message for the custom error toast -->
+    <string name="toast_error_message">Something went wrong</string>
+    <string name="about_schedule">Add your schedule information to view it in calendars.</string>
+    <string-array name="classrooms">
+        <item >BUS-1</item>
+        <item >LA-1</item>
+        <item >MA-1</item>
+        <item >SS-1</item>
+    </string-array>
+
+</resources>

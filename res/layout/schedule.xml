@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+We could possibly add all of these resources in the code since it's the same, but with different ID's.
+This would be better for being able to change everything easily, but I doubt I'll be changing anything.
+-->
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+>
+	
+    <!-- ScrollViews can only hold one item. This is that (unnecessary) item. -->
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:orientation="vertical"
+	>
+
+	    <LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:paddingTop="10dp"
+			android:paddingBottom="15dp"
+			android:paddingLeft="7dp"
+			android:paddingRight="7dp"
+			android:background="@color/rebelBlue"
+			android:orientation="vertical"
+		>
+		    <TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:textSize="20sp"
+		        android:text="Period 1"
+			/>
+		
+		    <EditText
+		        android:id="@+id/pd1ClassName"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:hint="Class name"
+		        android:ems="10"
+			/>
+		
+		    <Spinner
+				android:id="@+id/pd1ClassRoom"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+			/>
+		</LinearLayout>
+
+
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:paddingTop="15dp"
+			android:paddingBottom="15dp"
+			android:paddingLeft="7dp"
+			android:paddingRight="7dp"
+			android:background="@color/rebelSilver"
+			android:orientation="vertical"
+		>
+		    <TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:textColor="@android:color/black"
+				android:textSize="20sp"
+		        android:text="Period 2"
+			/>
+		
+		    <EditText
+		        android:id="@+id/pd2ClassName"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:hint="Class name"
+		        android:ems="10"
+			/>
+		
+		    <Spinner
+				android:id="@+id/pd2ClassRoom"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+			/>
+		</LinearLayout>
+
+
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:paddingTop="15dp"
+			android:paddingBottom="15dp"
+			android:paddingLeft="7dp"
+			android:paddingRight="7dp"
+			android:background="@color/rebelBlue"
+			android:orientation="vertical"
+		>
+		    <TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:textSize="20sp"
+		        android:text="Period 3"
+			/>
+		
+		    <EditText
+		        android:id="@+id/pd3ClassName"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:hint="Class name"
+		        android:ems="10"
+			/>
+		
+		    <Spinner
+				android:id="@+id/pd3ClassRoom"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+			/>
+		</LinearLayout>
+
+
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:paddingTop="15dp"
+			android:paddingBottom="15dp"
+			android:paddingLeft="7dp"
+			android:paddingRight="7dp"
+			android:background="@color/rebelSilver"
+			android:orientation="vertical"
+		>
+		    <TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:textColor="@android:color/black"
+		        android:textSize="20sp"
+		        android:text="Period 4"
+			/>
+		
+		    <EditText
+		        android:id="@+id/pd4ClassName"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:hint="Class name"
+		        android:ems="10"
+			/>
+		
+		    <Spinner
+				android:id="@+id/pd4ClassRoom"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+			/>
+		</LinearLayout>
+
+
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:paddingTop="15dp"
+			android:paddingBottom="15dp"
+			android:paddingLeft="7dp"
+			android:paddingRight="7dp"
+			android:background="@color/rebelBlue"
+			android:orientation="vertical"
+		>
+		    <TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:textSize="20sp"
+		        android:text="Period 5"
+			/>
+		
+		    <EditText
+		        android:id="@+id/pd5ClassName"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:hint="Class name"
+		        android:ems="10"
+			/>
+		
+		    <Spinner
+				android:id="@+id/pd5ClassRoom"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+			/>
+		</LinearLayout>
+
+
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:paddingTop="15dp"
+			android:paddingBottom="15dp"
+			android:paddingLeft="7dp"
+			android:paddingRight="7dp"
+			android:background="@color/rebelSilver"
+			android:orientation="vertical"
+		>
+		    <TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:textColor="@android:color/black"
+		        android:textSize="20sp"
+		        android:text="Period 6"
+			/>
+		
+		    <EditText
+		        android:id="@+id/pd6ClassName"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:hint="Class name"
+		        android:ems="10"
+			/>
+		
+		    <Spinner
+				android:id="@+id/pd6ClassRoom"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+			/>
+		</LinearLayout>
+
+
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:paddingTop="15dp"
+			android:paddingBottom="15dp"
+			android:paddingLeft="7dp"
+			android:paddingRight="7dp"
+			android:background="@color/rebelBlue"
+			android:orientation="vertical"
+		>
+		    <TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:textSize="20sp"
+		        android:text="Period 7"
+			/>
+		
+		    <EditText
+		        android:id="@+id/pd7ClassName"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:hint="Class name"
+		        android:ems="10"
+			/>
+		
+		    <Spinner
+				android:id="@+id/pd7ClassRoom"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+			/>
+		</LinearLayout>
+
+		
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:paddingTop="15dp"
+			android:paddingBottom="15dp"
+			android:paddingLeft="7dp"
+			android:paddingRight="7dp"
+			android:background="@color/rebelSilver"
+			android:orientation="vertical"
+		>
+		    <TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:textColor="@android:color/black"
+		        android:textSize="20sp"
+		        android:text="Period 8"
+			/>
+		
+		    <EditText
+		        android:id="@+id/pd8ClassName"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:hint="Class name"
+		        android:ems="10"
+			/>
+		
+		    <Spinner
+				android:id="@+id/pd8ClassRoom"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+			/>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal"
+			android:paddingTop="25dp"
+			android:weightSum="2"   
+		>
+
+		    <Button
+				android:id="@+id/save"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:text="Save"
+			/>
+	    
+		    <Button
+				android:id="@+id/clear"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:textSize="14sp"
+				android:text="Clear"
+			/>
+
+		</LinearLayout>
+	</LinearLayout>
+</ScrollView>

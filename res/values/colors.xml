@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="rebelBlue">#153379</color>
+    <color name="rebelSilver">#CCCCCC</color>
+    <color name="rebelRed">#AABBCC</color>
+    
+    <color name="error">#D2322D</color>
+</resources>
